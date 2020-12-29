@@ -4,10 +4,10 @@ import prediction
 import recommendation
 
 # define dimensions used in the overall process
-DIMENSIONS = ["Overall", "Joy", "Anger", "Sadness"]
+DIMENSIONS = ["Overall", "Anger", "Disgust", "Fear", "Joy", "Sadness", "Surprise"]
 
 #define weights for the dimensions
-dimensionWeights = {"Overall": 0.6, "Joy": 0.15, "Anger": 0.15, "Sadness": 0.1}
+dimensionWeights = {"Overall": 0.6, "Anger": 0.1, "Disgust": 0.05, "Fear": 0.05, "Joy": 0.1, "Sadness": 0.05, "Surprise": 0.05}
 
 AVERAGE_UNCOMPUTABLE = (-1000)
 PEARSON_UNCOMPUTABLE_NO_COMMON = (-1001)
